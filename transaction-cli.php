@@ -1,7 +1,7 @@
-<?php 
+<?php
 
-$reference_id = $argv[1];
-$status = $argv[2];
+$reference_id = stripcslashes(htmlspecialchars(htmlentities($argv[1])));
+$status = stripcslashes(htmlspecialchars(htmlentities($argv[2])));
 if ($reference_id && $status) {
 	include 'db.php';
 	$check = $db->query("SELECT id FROM transaction WHERE reference_id = '$reference_id'");
