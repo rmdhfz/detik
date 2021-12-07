@@ -31,7 +31,7 @@ How to use ?
 
 1. Migrate all tables
 2. Insert dummy data:
-  1. customer
-  2. merchant
-  3. transaction
+    1. customer
+    2. merchant
+    3. transaction
 3. already to use
