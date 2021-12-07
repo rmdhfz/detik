@@ -19,10 +19,10 @@ API Service:
 1. /api/create-transaction
 2. /api/status-transaction
 
-CLI Service:
+CLI Service: <br>
 ~ php transaction-cli.php {reference_id} {status}
 
-example:
+example: <br>
 ~ php transaction-cli.php ef1561126488422c4ce4 paid
 
 Docs: https://documenter.getpostman.com/view/4686021/UVJiiaLj
