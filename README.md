@@ -29,9 +29,10 @@ Docs: https://documenter.getpostman.com/view/4686021/UVJiiaLj
 
 How to use ?
 
-1. Migrate all tables
-2. Insert dummy data:
+1. create database detik
+2. Migrate all tables
+3. Insert dummy data for:
     1. customer
     2. merchant
     3. transaction
-3. already to use
+4. ready
