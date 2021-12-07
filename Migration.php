@@ -37,7 +37,7 @@ class Migration {
 	}
 	function down($table){
 		if ($table) {
-			$this->query("DROP TBALE IF EXISTS $table", "Migration Down");
+			$this->query("DROP TABLE IF EXISTS $table", "Migration Down");
 		}else{
 			return false;
 		}
